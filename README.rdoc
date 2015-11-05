@@ -1,28 +1,46 @@
 == README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Codeplace_Rails_Template
 
-Things you may want to cover:
+Sample Posts App to use as a starting point in Codeplace Rails Recipes.
 
-* Ruby version
+Models:
 
-* System dependencies
+The app contains only 2 models:
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+ 1 - User.rb
+ 2 - Post.rb
 
 
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+Users table has the following fields: 
+	
+	  t.string   :email
+      t.string   :encrypted_password
+      t.string   :reset_password_token
+      t.datetime :reset_password_sent_at
+      t.datetime :remember_created_at
+      t.integer  :sign_in_count
+      t.datetime :current_sign_in_at
+      t.datetime :last_sign_in_at
+      t.string   :current_sign_in_ip
+      t.string   :last_sign_in_ip
+	  t.timestamps
+
+Posts table has the following fields:
+	  
+	  t.text    :content
+      t.integer :user_id
+      t.timestamps
+
+
+Relationships:
+
+	User.rb - > has_many :posts, dependent: :destroy
+	Post.rb - > belongs_to :user
+
+
+Gems:
+
+Bootstrap 
+Simple Form
+Devise
