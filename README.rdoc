@@ -1,4 +1,4 @@
-== README
+== APPLY TO BECOME A CONTENT CREATOR
 
 We're Codeplace, a code recipe library for developers, and we're going to need Ruby on Rails developers for an ongoing project.
 
