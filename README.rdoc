@@ -1,6 +1,6 @@
 == APPLY TO BECOME A CONTENT CREATOR
 
-We're Codeplace, a code recipe library for developers, and we're going to need Ruby on Rails developers for an ongoing project.
+We're Codeplace (http://www.codeplace.com), a code recipe library for developers, and we're going to need Ruby on Rails developers for an ongoing project.
 
 We're looking for coders who can, not only develop great web applications, but are also able to decompose the development process in a step-by-step tutorial.
 
