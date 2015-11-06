@@ -1,6 +1,40 @@
 == README
 
-Codeplace_Rails_Template
+We're Codeplace, a code recipe library for developers, and we're going to need Ruby on Rails developers for an ongoing project.
+
+We're looking for coders who can, not only develop great web applications, but are also able to decompose the development process in a step-by-step tutorial.
+
+The selection process will be very simple. 
+
+You can either:
+- send us an intermediate/advanced ruby on rails tutorial you've already made;
+- complete the following small challenge:
+
+1 - Clone this repository.This will be the starting point for the challenge;
+
+2 - Checkout the repository's details below the README file;
+
+3 - "Ajaxify" the cloned app, i.e., alter the "posts" controller so that the CRUD operations are done using Ajax;
+
+4 - Create a step-by-step tutorial explaining your development process. You can check [here](https://s3-us-west-2.amazonaws.com/codeplaceimages/anexo_upwork.png) an example on how to do it. 
+
+So, what do we want from you?
+
+1 - A GitHub repository with your project. Please commit the changes you make on every step;
+
+2 - A text file with the tutorial. Please include some screenshots to illustrate the process.
+
+
+== IMPORTANT
+
+This will be a ongoing project, and in case you're selected, you can choose to join our team of content creators.
+
+Please skype or email us with any questions you may have:
+skype: codeplace 
+email: pedro@codeplace.com
+
+
+== APPLICATION DETAILS
 
 Sample Posts App to use as a starting point in Codeplace Rails Recipes.
 
@@ -14,7 +48,7 @@ The app contains only 2 models:
 
 Users table has the following fields: 
 	
-	  t.string   :email
+	t.string   :email
       t.string   :encrypted_password
       t.string   :reset_password_token
       t.datetime :reset_password_sent_at
@@ -24,11 +58,11 @@ Users table has the following fields:
       t.datetime :last_sign_in_at
       t.string   :current_sign_in_ip
       t.string   :last_sign_in_ip
-	  t.timestamps
+	t.timestamps
 
 Posts table has the following fields:
 	  
-	  t.text    :content
+	t.text    :content
       t.integer :user_id
       t.timestamps
 
